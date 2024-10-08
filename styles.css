@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0d0d0d;
+}
+
+#container {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    width: 250px; /* Размер логотипа, можешь изменить по своему усмотрению */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #f9f9f9;
+    margin-bottom: 1.5em;
+}
+
+.catalog-links {
+    list-style: none;
+    padding: 0;
+}
+
+.catalog-links li {
+    margin: 1em 0;
+}
+
+.catalog-links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0da2b8;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.catalog-links a:hover {
+    color: #1ebece;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #logo {
+        width: 120px;
+    }
+
+    .catalog-links a {
+        font-size: 1rem;
+    }
+}
